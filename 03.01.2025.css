@@ -1,0 +1,212 @@
+/* .accordion {
+    width: 100%; 
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.accordion-header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.accordion-content {
+    padding: 10px;
+    display: none;
+}
+
+.accordion-content.active {
+    display: block;
+} */
+
+
+/* .gallery img {
+    width: 150px;
+    height: auto;
+    margin: 10px ;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s ease;
+
+}
+.gallery img:hover {
+    border-color: #333;
+} */
+
+/* .form-group {
+    margin-bottom: 15px ;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+input , textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px; 
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+} */
+
+
+
+
+/* * {
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+
+}
+
+.logo {
+    color: rgb(219, 217, 217);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: rgb(230, 230, 230);
+    text-decoration: none ;
+    font-size: 18px ;
+
+
+}
+
+.menu-toggle {
+    display: none;
+flex-direction: column;
+cursor: pointer;
+}
+
+.bar  {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(228, 226, 226);
+    margin: 4px 0 ;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+    }
+
+.nav-links.active {
+    display: flex;
+}
+
+.menu-toggle {
+    display: flex;
+}
+}     */
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.parallax-section {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+}
+
+.section2 {
+    background-image: url('komodoreis.jpg') ;
+}
+.section2 {
+    background-image: url('aslaan.jpg');
+}
+.content-section {
+    padding: 50px 20px ;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px 4px #333;
+}
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}

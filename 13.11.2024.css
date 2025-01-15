@@ -1,0 +1,72 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4 ;
+    text-align: center;
+}
+
+form {
+    margin: 20px;
+    padding: 10px;
+    border: 1px;
+    width: 300px;
+    border-radius: 5px;
+}
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+form input , form select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#metin {
+    margin-top: 20px ;
+    padding: 15px;
+    font-size: 20px;
+    color: #333;
+} */
+
+
+body {
+    font-family: Arial , sans-serif ;
+    background-color: #f0f0f5;
+    text-align: center;
+    margin: 0; 
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+}
+#haberAkisi {
+    width: 80%;
+    margin: 20px auto ;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0 , 0,0,0.1 green, blue, alpha); 
+}
+.haber {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+
+.haber:last-child {
+    border-bottom: none ;
+}
+
+.haber h3 {
+    font-size : 1.5em ;
+    color: #0073e6 ;
+    margin: 0;
+}
+
+.haber p {
+    font-size: 1em;
+    color: #555 ;
+}
+.haber .etiketler {
+    font-style:italic;
+    color: #888 ;
+}

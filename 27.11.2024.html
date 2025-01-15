@@ -1,0 +1,260 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elemanları</title>
+    <link rel="stylesheet" href="27.11.2024.css">
+<body>
+    <h1> Form Elemanları Örneği </h1>
+    <form id="userForm">
+    <label for="username">Adınız</label>
+    <input type="text" id="username" name="username" placeholder="Adınızı girin" required>
+    <label for="email">E-posta : </label>
+    <input type="email" id="email" name="email" placeholder="E-posta adresinizi girin" required>
+    <label for="gender">Cinsiyet : </label>
+    <select id="gender" name="gender">
+    <option value="male"> Erkek </option>
+    <option value="female">Kadın</option>
+    <option value="other">Diğer</option>
+</select>
+<label for="bio">Hakkımızda</label>
+<textarea id="bio" name="bio" rows="4"
+placeholder="Kendiniz hakkında birkaç şey yazın"></textarea>
+<button type="submit"> Gönder </button>  </form>
+<script src="27.11.2024.js"></script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İnternet Kaynağı Şeması</title>
+    <link rel="stylesheet" href="27.11.2024.css">
+</head>
+<body>
+    <div class="container">
+        <h2> Kayıt Formu </h2>
+        <form id="registerForm">
+            <input type="text" id="name" placeholder="Adınız" required />
+            <input type="email" id="email" placeholder="E-Posta" required />
+            <button type="submit"> Kaydet </button>
+
+        </form>
+        <div id="response" class="response"></div>
+    </div>
+    <script src="27.11.2024.js"></script>
+    
+</body>
+</html> -->
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Attributes</title>
+</head>
+<body>
+    <form action="https://edgeoyun.com" method="POST">
+        <label for="search"> Arama : </label>
+        <input type="text" id="search" name="query">
+        <button type="submit">Ara </button>
+    </form>
+    
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        label {
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        /* Renklerin üzerine gelindiğinde (hover) ve tıklandığında (checked) renk değişimi */
+        input[type="radio"]:checked + label,
+        input[type="radio"]:hover + label {
+            color: white;
+        }
+
+        input[type="radio"][value="Red"]:checked + label,
+        input[type="radio"][value="Red"]:hover + label {
+            background-color: rgb(255, 208, 0);
+            color: red;
+        }
+
+        input[type="radio"][value="Blue"]:checked + label,
+        input[type="radio"][value="Blue"]:hover + label {
+           background-color: darkgoldenrod;
+            color: blue;
+        }
+
+        input[type="radio"][value="Green"]:checked + label,
+        input[type="radio"][value="Green"]:hover + label {
+            color: green;
+            background-color: aquamarine;
+        }
+
+        /* Checkbox kutularının da renklerinin değişmesi */
+        input[type="radio"]:checked {
+            accent-color: currentColor;
+        }
+
+        input[type="radio"]:hover {
+            accent-color: currentColor;
+        }
+
+        /* Seçilen renge göre input kutularının da rengi değişecek */
+        input[type="radio"][value="Red"]:checked {
+            accent-color: red;
+        }
+
+        input[type="radio"][value="Blue"]:checked {
+            accent-color: blue;
+        }
+
+        input[type="radio"][value="Green"]:checked {
+            accent-color: green;
+        }
+
+        input[type="radio"][value="Red"]:hover {
+            accent-color: red;
+        }
+
+        input[type="radio"][value="Blue"]:hover {
+            accent-color: blue;
+        }
+
+        input[type="radio"][value="Green"]:hover {
+            accent-color: green;
+        }
+
+    </style>
+</head>
+<body>
+
+    <form>
+        <input type="radio" id="red" name="color" value="Red">
+        <label for="red">Kırmızı</label><br>
+
+        <input type="radio" id="blue" name="color" value="Blue">
+        <label for="blue">Mavi</label><br>
+
+        <input type="radio" id="green" name="color" value="Green">
+        <label for="green">Yeşil</label><br>
+    </form>
+
+</body>
+</html>
+ -->
+
+
+
+ <!-- <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Programlama</title>
+ </head>
+ <body>
+    <form id="myForm">
+        <input type="text" id="name" name="name" placeholder="Adınız"> <br>
+        <button type="button" onclick="showValue()">Göster</button>
+    </form>
+    <p id="output"></p>
+<script src="27.11.2024.js"></script>    
+ </body>
+ </html> -->
+
+
+ <!-- <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeni Öğeler Eklemek</title>
+ </head>
+ <body>
+    <form id="dynamicForm">
+        <button type="button" onclick="addField()">Yeni Alan Ekle</button>
+    </form>
+    <script src="27.11.2024.js"></script>
+ </body>
+ </html> -->
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="27.11.2024.css">
+    <title>Ödev FORMU</title>
+ </head>
+ <body>
+    <form id="homeworkForm">
+        <h2>Ödev Formu</h2>
+        <div>
+            <label for="name">Ad ve Soyad</label>
+            <input type="text" id="name" name="name" placeholder="Adınızı ve Soyadınız giriniz " required>
+        </div>
+        <div> 
+            <label for="dob">Doğum Tarihi : </label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+
+        <div>
+            <label for="photo" > Fotoğraf Yükle : </label>
+            <input type="file" id="photo" name="photo" accept="image/+">
+        </div>
+
+        <div>
+            <label for="website" > Web Sitesi </label>
+            <input type="url" id="website" name="website" placeholder="https...">
+        </div>
+
+        <div>
+            <label for="password"> Şifre </label>
+            <input type="password" id="password" name="password"
+            placeholder="Şifrenizi girin" required>
+        </div>
+        <div>
+            <label for="favoriteColor">Favori Renk : </label>
+            <input type="color" id="favoriteColor" name="favoriteColor">
+        </div>
+        <div> 
+            <label>
+                <input type="checkbox" id="birthdayReminder" name="birthdayReminder">
+                Doğum Günümü Hatırlat
+            </label>
+        </div>
+        <div>
+            <button type="submit">Gönder</button>
+            <input type="reset" value="Sıfırla">
+        </div>
+    </form>
+    <script src="27.11.2024.js"></script>
+    
+ </body>
+ </html>

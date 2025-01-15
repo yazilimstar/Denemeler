@@ -1,0 +1,146 @@
+/* body {
+    font-family: arial, sans-serif;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.product {
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+img {
+    max-width: 30%;
+}
+
+@media (max-width : 1000px) {
+    .product {width: 180px;
+    }
+}
+
+@media (max-width : 800px) {
+    .product {width: 220px;
+    }
+} */
+/* .menu {
+    width: 200px;
+    display: flex;
+    flex-direction: column ; }
+
+    .menu-item {
+        display: flex;
+        align-items: center ;
+        padding: 10px ;
+        transition: background-color 0.3s ease ;
+    }
+
+    .menu-item img {
+        width: 20px ;
+        margin-right: 10px;
+    }
+    .menu-item:hover {
+        background-color: #ccc ;
+    }
+     */
+
+/* .container {
+    display: grid;
+    grid-template-columns: 200px 200px 1fr 200px;
+    gap: 10px;
+}
+.left-panel,
+.right-panel,
+.main-content {
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.block { 
+    margin: 10px 0 ;
+    padding: 10px;
+    background-color: #f0f0f0;
+
+}
+footer{
+    text-align: center;
+    margin-top: 20px ;
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

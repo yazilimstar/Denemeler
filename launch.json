@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open 27.12.2024.html",
+            "file": "c:\\Users\\Nova 14\\Desktop\\FURKAN YILDIZ\\.vscode\\27.12.2024.html"
+        }
+    ]
+}
